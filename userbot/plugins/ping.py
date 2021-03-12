@@ -11,7 +11,7 @@ async def _(event):
     event = await edit_or_reply(event, "Pong!")
     end = datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit("Pong!\n`{}`".format(ms))
+    await event.edit("♕Kopong!\n`{}`".format(ms))
 
 
 @bot.on(admin_cmd(pattern=f"fping$", outgoing=True))
